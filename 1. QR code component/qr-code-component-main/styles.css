@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* This ensures that all elements maintain their width and height */
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+
+}
+
+body{
+    font-family: outfit, sans-serif;
+    background: var(--Light-gray);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+   
+}
+ 
+h1{
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+p{
+    font-weight: 400;
+    padding: 20px;
+    color: var(--Grayish-blue);
+}
+img{
+    max-width:330px;
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+
+
+.container{
+    max-width: 350px;
+    padding: 20px;
+    margin: 0 auto;
+    background: var(--White);
+    border-radius: 20px;   
+}
+
+
+
+.content{
+    max-width: 450px;
+    text-align: center;
+}
+
+
+
