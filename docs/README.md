@@ -1,3 +1,5 @@
+My First frontend challenge: https://omarinhojr.github.io/frontend_challenges/ 
+
 # Frontend Mentor - QR code component
 
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
